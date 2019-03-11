@@ -1,0 +1,22 @@
+{
+  "name": "html2pdf",
+  "version": "1.0.0",
+  "description": "Convert HTML page to PDF file ",
+  "main": "index.js",
+  "repository": "https://github.com/denisvolokh/html2pdf",
+  "author": "Denis Volokh",
+  "license": "MIT",
+  "engineStrict": true,
+  "bin": {
+    "html2pdf": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.19.0",
+    "cookie-parser": "~1.4.3",
+    "morgan": "~1.9.0",
+    "puppeteer": "^1.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
