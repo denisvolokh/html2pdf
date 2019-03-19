@@ -12,11 +12,11 @@ const html2pdf = async (options) => {
 	});
 	const page = await browser.newPage();
 	await page.goto(options.url, {
-		waitUntil: 'networkidle'
+		waitUntil: 'networkidle2'
 	});
 
 	await timeout(5000);
-	
+
 	const parameters = {
 		"format": options.format, 
 		"printBackground": options.printBackground, 
