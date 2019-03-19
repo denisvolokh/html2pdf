@@ -34,7 +34,7 @@ const html2pdf = async (options) => {
 
 	fs.writeFileSync(options.pdf, pdf_in_buffer);
 
-	console.log("[+] Successfully Saved to ${options.pdf}");
+	console.log("[+] Successfully Saved to " + options.pdf);
 };
 
 module.exports = { html2pdf };
